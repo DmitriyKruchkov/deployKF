@@ -19,8 +19,8 @@ configMapGenerator:
 
 images:
   ## TIP: these tags can be used to change the tool versions used by the plugin
-  #- name: "docker.io/bitnami/kubectl"
-  #  newTag: "1.26.10"
+  - name: "docker.io/bitnami/kubectl"
+    newTag: "sha256-1bc359beb3ae3982591349df11db50b0917b0596e8bed8ab9cf0c8a84a3502d1"
   #- name: "docker.io/alpine/helm"
   #  newTag: "3.12.3"
   #- name: "ghcr.io/deploykf/cli"
